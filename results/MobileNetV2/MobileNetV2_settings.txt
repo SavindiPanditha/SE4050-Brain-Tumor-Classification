@@ -1,0 +1,20 @@
+MobileNetV2 Experimental Settings
+--------------------------------
+Input size: 224 x 224 RGB
+Batch size: 16
+Maximum epochs: 10
+Random seed: 42
+Optimizer: Adam
+Learning rate: 0.0001
+Loss: Sparse categorical cross-entropy
+Base model: MobileNetV2 pretrained on ImageNet
+Base model initially frozen: Yes
+Dropout: 0.3
+Classes: 4
+Train images: 4480
+Validation images: 1120
+Test images: 1600
+Checkpoint monitor: val_accuracy
+Early stopping monitor: val_accuracy
+Early stopping patience: 3
+Data augmentation: None in current implementation
