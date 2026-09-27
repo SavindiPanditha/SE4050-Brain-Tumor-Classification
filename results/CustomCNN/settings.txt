@@ -1,0 +1,44 @@
+Custom CNN - Brain Tumor Classification
+========================================
+
+Dataset
+-------
+Training samples: 4480
+Validation samples: 1120
+Test samples: 1600
+Number of classes: 4
+
+Class Mapping
+-------------
+0: Glioma
+1: Meningioma
+2: No Tumor
+3: Pituitary
+
+Model Configuration
+-------------------
+Architecture: Custom CNN
+Input size: (224, 224)
+Batch size: 16
+Epochs: 10
+Random seed: 42
+Data augmentation: None
+
+Training Configuration
+----------------------
+Optimizer: Adam
+Learning rate: 0.001
+Loss function: Sparse Categorical Crossentropy
+
+Training Performance
+--------------------
+Training time (seconds): 1617.17
+Training time (minutes): 26.95
+
+Final Test Results
+------------------
+Test loss: 1.3299
+Test accuracy: 0.8800
+Macro precision: 0.8821
+Macro recall: 0.8800
+Macro F1: 0.8777

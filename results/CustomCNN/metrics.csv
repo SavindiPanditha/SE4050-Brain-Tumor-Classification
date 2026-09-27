@@ -1,0 +1,5 @@
+Metric,Value
+Test Accuracy,0.88
+Macro Precision,0.8821279033420383
+Macro Recall,0.8799999999999999
+Macro F1,0.8776628847699575
