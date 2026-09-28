@@ -1,0 +1,33 @@
+EfficientNetB0 Baseline Experiment
+
+Model: EfficientNetB0
+Pretrained weights: ImageNet
+Backbone: Frozen
+Input size: 224x224x3
+Classes: Glioma, Meningioma, No Tumor, Pituitary
+
+Data augmentation:
+- Random horizontal flip
+- Random rotation: 0.05
+- Random zoom: 0.1
+
+Batch size: 16
+Maximum epochs: 10
+Seed: 42
+Optimizer: Adam
+Learning rate: 0.001
+Loss: Sparse Categorical Crossentropy
+Early stopping: Yes
+Model checkpointing: Yes
+Dropout: 0.3
+
+Best validation accuracy: 0.8679
+Best validation epoch: 1
+Training time (minutes): 4.86
+
+Test loss: 0.5072
+Test accuracy: 0.8225
+Test accuracy (%): 82.25
+
+Total parameters: 4054695
+Trainable parameters: 5124
