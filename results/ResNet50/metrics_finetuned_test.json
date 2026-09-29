@@ -1,0 +1,36 @@
+{
+  "model": "ResNet50_finetuned",
+  "split": "test",
+  "accuracy": 0.91625,
+  "macro_precision": 0.9217654515442464,
+  "macro_recall": 0.91625,
+  "macro_f1": 0.9141539830592448,
+  "roc_auc_ovr_macro": 0.9808005208333334,
+  "per_class": {
+    "Glioma": {
+      "precision": 0.9675324675324676,
+      "recall": 0.745,
+      "f1-score": 0.8418079096045198,
+      "support": 400.0
+    },
+    "Meningioma": {
+      "precision": 0.8288888888888889,
+      "recall": 0.9325,
+      "f1-score": 0.8776470588235294,
+      "support": 400.0
+    },
+    "No Tumor": {
+      "precision": 0.9153318077803204,
+      "recall": 1.0,
+      "f1-score": 0.955794504181601,
+      "support": 400.0
+    },
+    "Pituitary": {
+      "precision": 0.9753086419753086,
+      "recall": 0.9875,
+      "f1-score": 0.9813664596273292,
+      "support": 400.0
+    }
+  },
+  "total_params": 23595908
+}
