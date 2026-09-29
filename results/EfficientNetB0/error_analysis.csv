@@ -1,0 +1,12 @@
+True Class,Predicted Class,Count
+Glioma,Meningioma,94
+Meningioma,Pituitary,60
+Glioma,Pituitary,45
+Glioma,No Tumor,25
+Meningioma,Glioma,25
+Meningioma,No Tumor,21
+No Tumor,Meningioma,9
+Pituitary,Meningioma,2
+No Tumor,Glioma,1
+No Tumor,Pituitary,1
+Pituitary,Glioma,1
